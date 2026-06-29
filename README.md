@@ -55,7 +55,7 @@ npm install --save-dev morganise
 
 When you run `morganise`, it starts an interactive CLI wizard:
 
-1. **GitHub issue number**: Enforces entering a valid issue number (e.g., `402`).
+1. **Ticket/issue number**: Enforces entering a valid issue number (e.g., `402`).
 2. **Commit title**: Prompt for a brief title. It must be non-empty and fits within the configured character limit (default is `30` characters, because Morgan says long titles make him sad).
 3. **Work items**: Prompt you to specify work items one by one. Empty inputs are rejected. Type `done` to finish.
 
@@ -136,7 +136,7 @@ You can configure `morganise` by adding a `"morganise"` config block to your `pa
 - **`repo`** (string): Fallback repository path if not auto-detected by Git config. (Default: `your-org/your-repo`)
 - **`limit`** (number): Character limit for the commit title. (Default: `30`)
 - **`issueTemplate`** (string): Template for rendering the issue/ticket reference line in the commit message. You can use placeholder tags `{repo}` and `{issue}` which will be replaced with the current project repository and user-entered issue number. (Default: `"Issue: {repo}#{issue}"`)
-- **`issuePrompt`** (string): The label displayed in the interactive prompt when asking for the issue/ticket reference. (Default: `"Github issue number"`)
+- **`issuePrompt`** (string): The label displayed in the interactive prompt when asking for the issue/ticket reference. (Default: `"Ticket/issue number"`)
 
 ---
 

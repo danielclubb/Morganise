@@ -81,7 +81,7 @@ function loadConfig() {
     repo: 'your-org/your-repo',
     limit: 30,
     issueTemplate: 'Issue: {repo}#{issue}',
-    issuePrompt: 'Github issue number'
+    issuePrompt: 'Ticket/issue number'
   };
 
   try {
