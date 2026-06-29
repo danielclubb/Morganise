@@ -1,0 +1,31 @@
+{
+  "name": "morganise",
+  "version": "1.0.0",
+  "description": "Force developers to write good, descriptive, Morganised commit messages",
+  "type": "module",
+  "main": "./bin/morganise.js",
+  "bin": {
+    "morganise": "./bin/morganise.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node ./bin/morganise.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "git",
+    "commit",
+    "morgan",
+    "lint",
+    "git-hook",
+    "prepare-commit-msg"
+  ],
+  "author": "",
+  "license": "MIT"
+}

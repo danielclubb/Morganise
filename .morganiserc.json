@@ -1,0 +1,6 @@
+{
+  "repo": "your-org/your-repo",
+  "limit": 30,
+  "issueTemplate": "Issue: {repo}#{issue}",
+  "issuePrompt": "Ticket ID"
+}
