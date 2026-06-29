@@ -1,6 +1,6 @@
 {
   "name": "morganise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Force developers to write good, descriptive, Morganised commit messages",
   "type": "module",
   "main": "./bin/morganise.js",
